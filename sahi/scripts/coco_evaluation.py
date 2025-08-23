@@ -5,7 +5,7 @@ from collections import OrderedDict
 from pathlib import Path
 from typing import List, Literal, Optional, Union
 
-import fire
+import click
 import numpy as np
 from terminaltables import AsciiTable
 
@@ -396,4 +396,5 @@ def evaluate(
 
 
 if __name__ == "__main__":
-    fire.Fire(evaluate)
+    #fire.Fire(evaluate)
+    ...

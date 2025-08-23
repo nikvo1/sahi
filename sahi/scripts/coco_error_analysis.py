@@ -5,7 +5,7 @@ from multiprocessing import Pool
 from pathlib import Path
 from typing import List, Optional, Union
 
-import fire
+import click
 import numpy as np
 
 from sahi.logger import logger
